@@ -15,7 +15,7 @@ using StudyBudAPI.Models.Validators;
 using System.Reflection;
 using System.Text;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args)
 builder.Host.UseNLog();
 
 // Add services to the container.
